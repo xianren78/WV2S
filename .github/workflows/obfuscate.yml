@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add src/worker.js
-          git add src/worker.js.bak
+          git add _worker.js
+          git add _worker.bak
           git commit -m "Obfuscated _worker.js and backed up original as .bak"
           git push
